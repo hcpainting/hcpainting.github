@@ -1,0 +1,122 @@
+div.background-jumb{
+   background-color: navy;
+   margin: 0 auto;
+   height: 250px;
+   width: 70%;
+   margin-top: 40px;
+   margin-bottom: 50px;
+   position: relative;
+   border-radius: 25px;
+}
+
+div.intro{
+    background-color: navy;        
+    width: 65%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -118px;
+    margin-left: -430px;
+    text-align: center;
+    height: 225px;
+    font-size: 35px;
+    border-radius: 25px;
+    color: white;
+    
+}
+h1.title{
+    padding-top: 15px;
+}
+h2.subtitle{
+    margin: -30px 0px 0px 0px;
+    font-size: 34px;
+
+}
+
+div.paint-photo{
+    background-color: navy;
+    height: 500px;
+    float: left;
+    margin-top: -35px;
+    border-radius: 25px;
+    margin-left: 284px;
+    width: 670px;
+    color: white;
+    font-size: 35px;
+}
+
+div.Dad{
+    background-color: black;
+    height: 500px;
+    width: 342px;
+    float: right;
+    padding-right: 300px;
+    margin-right: 289px;
+    margin-top: -35px;
+    border-radius: 25px;
+     background-image: url(https://2.bp.blogspot.com/-34UzO76QxKk/W8hc8WhqxkI/AAAAAAAAUW4/OfVGldanFYc12IVKN-Eu5GCx1obnA2HWACLcBGAs/s640/2018-09-10_18.00.09.jpg);
+}
+
+div.content{
+    background-color: navy;
+    width: 550px;
+    margin-left: 133px;
+    margin-top: 80px;
+    border-radius: 25px;
+    color: white;
+    font-size: 60px;
+    margin-top: -10px;
+    margin-left: 60px;
+
+}
+
+div.left{
+    text-align: left;
+    background-color: navy;
+    width: 500px;
+    padding-left: 30px;
+    padding-top: 15px;
+    border-radius: 25px;
+    color: white;
+
+}
+
+h2.navbar-top{
+    font-size: 30px;
+    margin-bottom: -20px;
+    margin-top: 0px;
+}
+
+h2.navbar-bottom{
+    margin-bottom: -20px;
+}
+div.owner{
+    background-color: navy;
+    height: 110px;
+    margin-top: 535px;
+    margin-left: 283px;
+    border-radius: 25px;
+    width: 1335px;
+    text-align: center;
+
+}
+
+div.links{
+    float:right;
+    color: #FFD700;
+    margin-top: -75px;
+    margin-right: 60px;
+    font-size: 30px;
+}
+
+span.bar{
+    color: white;
+}
+a{
+    color: #FFD700;
+    text-decoration: none;
+}
+
+body{
+    background-color: white; 
+}
