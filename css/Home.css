@@ -33,7 +33,7 @@ h2.subtitle{
 
 }
 
-div.paint-photo{
+div.slogan{
     background-color: navy;
     height: 500px;
     float: left;
@@ -90,7 +90,7 @@ h2.navbar-top{
 h2.navbar-bottom{
     margin-bottom: -20px;
 }
-div.owner{
+div.navbar{
     background-color: navy;
     height: 110px;
     margin-top: 535px;
