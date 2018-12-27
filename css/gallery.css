@@ -1,0 +1,83 @@
+div.navbar{
+    width: 75%;
+    background-color: navy;
+    color: white;
+    border-radius: 25px;
+    margin: auto;
+    text-align: center;
+}
+
+div.bottom-tile{
+    border-radius: 25px;
+    background-color: navy;
+    color: white;
+    width: 75%;
+    margin: auto;
+    margin-top: -8px;
+    height: 140px;
+}
+
+div.left{
+    margin-left: 60px;
+    margin-top: 20px;
+    padding-top: 39px; 
+}
+
+h2.navbar-top{
+    padding-top: 20px;
+    font-size: 30px;
+    margin-top: -7px;
+}
+
+h2.navbar-bottom{
+    margin-top: -20px;
+}
+
+h2.navbar-last{
+    margin-top: -19px;
+}
+
+div.links{
+    float: right;
+    text-decoration: none;
+    margin-top: -50px;
+    padding-right: 100px;
+}
+
+span.bar{
+    font-size: 30px;
+}
+
+a{
+    color: #FFD700;
+}
+a:link {
+  text-decoration: none;
+  font-size: 30px;
+  color: yellow;
+}
+
+a:visited {
+  text-decoration:none;
+  font-size: 30px;
+}
+
+a:hover {
+  text-decoration: none;
+  font-size: 30px;
+  color: white;
+}
+
+a:active {
+  text-decoration: none;
+  font-size: 30px;
+
+}
+
+div.container{
+    margin: auto;
+    width: 75%;
+    border-radius: 25px;
+    outline: 5px solid navy;
+    border-radius: 25px;
+}

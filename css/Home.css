@@ -1,122 +1,259 @@
-div.background-jumb{
-   background-color: navy;
-   margin: 0 auto;
-   height: 250px;
-   width: 70%;
-   margin-top: 40px;
-   margin-bottom: 50px;
-   position: relative;
-   border-radius: 25px;
+div.background-jumb {
+    background-color: lightSeaGreen;
+    width: 75%;
+    border-radius: 25px;
+    margin: auto;
+    height: 200px;
+    padding-top: 15px;
+    margin-top: 15px;
+
 }
 
-div.intro{
-    background-color: navy;        
-    width: 65%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-top: -118px;
-    margin-left: -430px;
-    text-align: center;
-    height: 225px;
-    font-size: 35px;
-    border-radius: 25px;
+
+h1.title{
     color: white;
+    text-align: center;
+    font-size: 60px;
     
 }
-h1.title{
-    padding-top: 15px;
-}
-h2.subtitle{
-    margin: -30px 0px 0px 0px;
-    font-size: 34px;
 
+h2.subtitle{
+    color: white;
+    margin-top: -25px;
+    font-size: 35px;
+    text-align: center;
 }
 
 div.slogan{
     background-color: navy;
-    height: 500px;
     float: left;
-    margin-top: -35px;
-    border-radius: 25px;
-    margin-left: 284px;
-    width: 670px;
-    color: white;
-    font-size: 35px;
-}
-
-div.Dad{
-    background-color: black;
-    height: 500px;
-    width: 342px;
-    float: right;
-    padding-right: 300px;
-    margin-right: 289px;
-    margin-top: -35px;
-    border-radius: 25px;
-     background-image: url(https://2.bp.blogspot.com/-34UzO76QxKk/W8hc8WhqxkI/AAAAAAAAUW4/OfVGldanFYc12IVKN-Eu5GCx1obnA2HWACLcBGAs/s640/2018-09-10_18.00.09.jpg);
-}
-
-div.content{
-    background-color: navy;
-    width: 550px;
-    margin-left: 133px;
-    margin-top: 80px;
     border-radius: 25px;
     color: white;
     font-size: 60px;
-    margin-top: -10px;
-    margin-left: 60px;
+    height: 500px;
+    margin-left: 240px;
+    margin-top: 12px;
+    width: 580px;
+    padding: 30px;
+    padding-top: 10px;
+    padding-left: 60px;
 
+}
+
+img{
+    height: 540px;
+    margin-left: 10px;
+    margin-top: 12px;
+    height: 540px;
+    margin-left: 10px;
+    margin-top: 12px;
+    border-radius:25px;
+    width: 730px;
+    height: 540px;
+}
+
+div.bottom-tile{
+    border-radius: 25px;
+    background-color: navy;
+    color: white;
+    width: 75%;
+    margin: auto;
+    margin-top: -8px;
+    height: 140px;
 }
 
 div.left{
-    text-align: left;
-    background-color: navy;
-    width: 500px;
-    padding-left: 30px;
-    padding-top: 15px;
-    border-radius: 25px;
-    color: white;
-
+    margin-left: 60px;
+    margin-top: 20px;
 }
 
 h2.navbar-top{
+    padding-top: 25px;
     font-size: 30px;
-    margin-bottom: -20px;
+    margin-top: -7px;
+}
+
+h2.navbar-bottom{
+    margin-top: -20px;
+}
+
+h2.navbar-last{
+    margin-top: -19px;
+}
+
+div.links{
+    float: right;
+    margin-top: -75px;
+    text-decoration: none;
+    padding-right: 100px;
+
+}
+
+span.bar{
+    font-size: 30px;
+}
+
+a{
+    color: #FFD700;
+}
+a:link {
+  text-decoration: none;
+  font-size: 30px;
+  color: yellow;
+}
+
+a:visited {
+  text-decoration:none;
+  font-size: 30px;
+}
+
+a:hover {
+  text-decoration: none;
+  font-size: 30px;
+  color: white;
+}
+
+a:active {
+  text-decoration: none;
+  font-size: 30px;
+
+}
+
+
+@media only screen and (max-width:1450px){
+    body{
+        background-color: blue;
+    }
+
+    div.slogan{
+    background-color: navy;
+    float: left;
+    border-radius: 25px;
+    color: white;
+    font-size: 40px;
+    height: 490px;
+    margin-left: 180px;
+    margin-top: 12px;
+    width: 400px;
+    padding: 30px;
+    padding-top: 10px;
+    padding-left: 60px;
+
+}
+
+img{
+    height: 540px;
+    margin-left: 10px;
+    margin-top: 12px;
+    border-radius:25px;
+    width:565px;
+    height: 530px;
+}
+
+div.links{
+    float: right;
+    margin-top: -75px;
+    text-decoration: none;
+    padding-right: 100px;
+
+}
+
+span.bar{
+    font-size: 25px;
+}
+
+a{
+    color: #FFD700;
+}
+a:link {
+  text-decoration: none;
+  font-size: 25px;
+  color: #FFD700;
+}
+
+a:visited {
+  text-decoration:none;
+  font-size: 25px;
+}
+
+a:hover {
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+}
+
+a:active {
+  text-decoration: none;
+  font-size:25px;
+
+}
+
+
+div.left{
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+h2.navbar-top{
+    padding-top: 30px;
+    font-size: 25px;
     margin-top: 0px;
 }
 
 h2.navbar-bottom{
-    margin-bottom: -20px;
+    margin-top: -20px;
 }
-div.navbar{
-    background-color: navy;
-    height: 110px;
-    margin-top: 535px;
-    margin-left: 283px;
-    border-radius: 25px;
-    width: 1335px;
-    text-align: center;
 
+h2.navbar-last{
+    margin-top: -19px;
 }
 
 div.links{
-    float:right;
-    color: #FFD700;
-    margin-top: -75px;
-    margin-right: 60px;
-    font-size: 30px;
-}
-
-span.bar{
-    color: white;
-}
-a{
-    color: #FFD700;
+    float: right;
+    margin-top: -68px;
     text-decoration: none;
+    padding-right: 100px;
+
 }
 
-body{
-    background-color: white; 
+
 }
+
+@media only screen and (max-width: 1400px){
+    body{
+        background-color: green;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 1300px){
+    body{
+        background-color: brown;
+    }
+
+}
+
+
+/* mobile */
+@media only screen and (max-width: 600px){ 
+
+    body{
+        background-color: black;
+    }
+
+
+
+}
+
+
+
+@media only screen and (max-width: 400px){
+
+
+    body{
+        background-color: red;
+    }
+}
+
