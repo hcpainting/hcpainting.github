@@ -1,11 +1,11 @@
 div.background-jumb {
-    background-color: lightSeaGreen;
-    width: 75%;
-    border-radius: 25px;
-    margin: auto;
-    height: 200px;
-    padding-top: 15px;
-    margin-top: 15px;
+    background-color: navy;
+    width: 1440px;
+    margin:auto;
+    height: 20vh;
+    border-radius:1.4vw;
+    padding-top: 1vh;
+ 
 
 }
 
@@ -13,84 +13,87 @@ div.background-jumb {
 h1.title{
     color: white;
     text-align: center;
-    font-size: 60px;
+    font-size: 3vw;
     
 }
 
 h2.subtitle{
     color: white;
-    margin-top: -25px;
-    font-size: 35px;
+    font-size:1.5vw;
     text-align: center;
+    margin-top: 1.4vw;
 }
 
 div.slogan{
-    background-color: navy;
+    background-color: lightSeaGreen;
     float: left;
-    border-radius: 25px;
     color: white;
-    font-size: 60px;
-    height: 500px;
-    margin-left: 240px;
-    margin-top: 12px;
-    width: 580px;
-    padding: 30px;
-    padding-top: 10px;
-    padding-left: 60px;
+    width:640px;
+    height: 61vh;
+    font-size:1vw;
+    border-radius:1.4vw;
+    margin-left: 12vw;
+    margin-top: .7vh;
+    padding: 2vw;
+    padding-left: .8vw;
+
 
 }
 
 img{
-    height: 540px;
-    margin-left: 10px;
-    margin-top: 12px;
-    height: 540px;
-    margin-left: 10px;
-    margin-top: 12px;
-    border-radius:25px;
+
+    margin-left: .4vw;
+    margin-top: .7vh;
+    border-radius:1.4vw;
     width: 730px;
-    height: 540px;
+    height: auto;
+    
 }
 
 div.bottom-tile{
-    border-radius: 25px;
-    background-color: navy;
+    border-radius: 1.4vw;
+    background-color: red;
     color: white;
+    font-size:1vw;
     width: 75%;
     margin: auto;
-    margin-top: -8px;
-    height: 140px;
+    margin-top: -1.5vh;
+    height: 15vh;
 }
 
 div.left{
-    margin-left: 60px;
-    margin-top: 20px;
+    margin-left: 3vw;
+    margin-top: 1vh;
+    font-size:1,5vw;
+    
 }
 
 h2.navbar-top{
-    padding-top: 25px;
-    font-size: 30px;
-    margin-top: -7px;
+  padding-top: 2vh;
+    font-size:1.5vw
+    margin-top:-.7vh
 }
 
 h2.navbar-bottom{
-    margin-top: -20px;
+   margin-top: -1.7vh;
 }
 
 h2.navbar-last{
-    margin-top: -19px;
+    margin-top: -1.7vh;
 }
 
 div.links{
     float: right;
-    margin-top: -75px;
+    margin-top: -8vh;
     text-decoration: none;
-    padding-right: 100px;
-
+    font-size: .7vw;
+    
+ 
 }
 
 span.bar{
-    font-size: 30px;
+
+    font-size:1.5vw;
 }
 
 a{
@@ -98,142 +101,272 @@ a{
 }
 a:link {
   text-decoration: none;
-  font-size: 30px;
+  font-size: 2vw;
   color: yellow;
 }
 
 a:visited {
   text-decoration:none;
-  font-size: 30px;
+  font-size:2vw;
 }
 
 a:hover {
   text-decoration: none;
-  font-size: 30px;
+  font-size:2vw;
   color: white;
 }
 
 a:active {
   text-decoration: none;
-  font-size: 30px;
+  font-size: 2vw;
 
 }
 
 
-@media only screen and (max-width:1450px){
+@media screen and (max-width: 1919px){
     body{
-        background-color: blue;
+        background-color: green;
+        width:100%
     }
-
+  div.background-jumb{
+    width:75%;
+    margin: auto;
+}
     div.slogan{
     background-color: navy;
-    float: left;
-    border-radius: 25px;
-    color: white;
-    font-size: 40px;
-    height: 490px;
-    margin-left: 180px;
-    margin-top: 12px;
-    width: 400px;
-    padding: 30px;
-    padding-top: 10px;
-    padding-left: 60px;
+    margin-left:12vw;
+    height:30%;
+    width: 72.5%;
+   
 
 }
-
+div.img_container{
+    text-align: center;
+}
 img{
-    height: 540px;
-    margin-left: 10px;
-    margin-top: 12px;
-    border-radius:25px;
-    width:565px;
-    height: 530px;
+    display: inline-block;
+    max-width: 70%;
+    height: auto;
 }
+
+
+
+a{
+    color: #FFD700;
+}
+a:link {
+    text-decoration: none;
+    color: #FFD700;
+    font-size: .6vw;
+}
+
+a:visited {
+  text-decoration:none;
+
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+a:active {
+  text-decoration: none;
+
+
+}
+
+
+
+
 
 div.links{
     float: right;
-    margin-top: -75px;
+    padding-top: 4vh;
+    padding-right: 3vw;
     text-decoration: none;
-    padding-right: 100px;
+
 
 }
 
-span.bar{
-    font-size: 25px;
+
 }
+
+@media screen and (max-width:1200px){
+    body{
+        background-color: purple;
+        width:100%;
+    }
+    div.background-jumb{
+    width:75%;
+    margin: auto;
+    margin-bottom: 1vh;
+}
+    div.slogan{
+    background-color: navy;
+    margin: auto;
+    margin-left: 12vw;
+    margin-bottom: 1vh;
+    height: auto;
+    width: 72.5%;
+   
+
+}
+div.img_container{
+    text-align: center;
+}
+img{
+    display: inline-block;
+    max-width: 70%;
+    height: auto;
+    margin: 0 auto;
+ 
+}
+
+div.bottom-title{
+    width: 75%;
+    margin: auto;;
+}
+div.links{
+    padding-right: -20vw;
+    
+    text-decoration: none;
+   
+
+}
+
 
 a{
     color: #FFD700;
 }
 a:link {
   text-decoration: none;
-  font-size: 25px;
   color: #FFD700;
 }
 
 a:visited {
   text-decoration:none;
-  font-size: 25px;
+
 }
 
 a:hover {
   text-decoration: none;
-  font-size: 25px;
   color: white;
 }
 
 a:active {
   text-decoration: none;
-  font-size:25px;
+
 
 }
 
 
-div.left{
-    margin-left: 60px;
-    margin-top: 20px;
-}
 
-h2.navbar-top{
-    padding-top: 30px;
-    font-size: 25px;
-    margin-top: 0px;
-}
 
-h2.navbar-bottom{
-    margin-top: -20px;
-}
-
-h2.navbar-last{
-    margin-top: -19px;
-}
 
 div.links{
     float: right;
-    margin-top: -68px;
+    padding-top: 4vh;
+    padding-right: 70vw;
     text-decoration: none;
-    padding-right: 100px;
-
-}
 
 
 }
 
-@media only screen and (max-width: 1400px){
+
+}
+
+
+
+
+
+@media screen and (max-width:800px){
     body{
-        background-color: green;
+        background-color: blue;
+        width:100%;
     }
+    div.background-jumb{
+    width:75%;
+    margin: auto;
+    margin-bottom: 1vh;
+}
+    div.slogan{
+    background-color: navy;
+    margin-left: 12vw;
+    margin-bottom: 1vh;
+    height: auto;
+    width: 72.5%%;
+   
+
+}
+div.img_container{
+    text-align: center;
+}
+img{
+    max-width: 70%;
+    height: auto;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+div.bottom-title{
+    width: 75%;
+    margin: auto;;
+}
+div.links{
+    padding-right: -40vw;
+    
+    text-decoration: none;
+   
+
+}
+
+
+a{
+    color: #FFD700;
+}
+a:link {
+  text-decoration: none;
+  color: #FFD700;
+}
+
+a:visited {
+  text-decoration:none;
+
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+a:active {
+  text-decoration: none;
+
 
 }
 
 
 
-@media only screen and (max-width: 1300px){
-    body{
-        background-color: brown;
-    }
+
+
+div.links{
+    float: right;
+    padding-top: 4vh;
+    padding-right: 70vw;
+    text-decoration: none;
+
 
 }
+
+
+}
+
+
+
+
+
+
 
 
 /* mobile */
@@ -241,8 +374,68 @@ div.links{
 
     body{
         background-color: black;
+        width: 100%;
     }
+ div.background-jumb{
+    width:80%;
+   
+    margin-bottom: 1vh;
+}
+    div.slogan{
+    background-color: navy;
+    margin: auto;
+    margin-bottom: 1vh;
+    height: auto;
+    width: 78%;
+    margin-left:9.5vw;
+   
 
+}
+div.img_container{
+    text-align: center;
+    margin-bottom:1vh;
+}
+img{
+    max-width: 70%;
+    height: auto;
+    margin-bottom: 1.5vh;
+    display: inline-block;
+    
+}
+
+div.bottom-title{
+    width: 90%;
+    
+}
+div.links{
+    text-decoration: none;
+
+}
+
+
+a{
+    color: #FFD700;
+}
+a:link {
+  text-decoration: none;
+  color: #FFD700;
+}
+
+a:visited {
+  text-decoration:none;
+
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+a:active {
+  text-decoration: none;
+
+
+}
 
 
 }
@@ -254,6 +447,67 @@ div.links{
 
     body{
         background-color: red;
+         width: 80%:
     }
+ div.background-jumb{
+    width:75%;
+   margin-left: 0 auto;
+    margin-bottom: 1vh;
+}
+    div.slogan{
+    background-color: navy;
+    margin-bottom: 1vh;
+    height: auto;
+    width: 70%;
+    margin-left: 15vw;
+   
+
+}
+div.img_container{
+    text-align: center;
+    margin-bottom: 1vh;
+}
+img{
+    display: inline-block;
+    max-width: 80%;
+    height: auto;
+    margin: 0 auto;
 }
 
+div.bottom-title{
+    width: 70%;
+    
+}
+div.links{
+    text-decoration: none;
+
+}
+
+
+a{
+    color: #FFD700;
+}
+a:link {
+  text-decoration: none;
+  color: #FFD700;
+}
+
+a:visited {
+  text-decoration:none;
+
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+a:active {
+  text-decoration: none;
+
+
+}
+
+
+}
+https://2.bp.blogspot.com/-34UzO76QxKk/W8hc8WhqxkI/AAAAAAAAUW4/OfVGldanFYc12IVKN-Eu5GCx1obnA2HWACLcBGAs/s640/2018-09-10_18.00.09.jpg%22https://2.bp.blogspot.com/-34UzO76QxKk/W8hc8WhqxkI/AAAAAAAAUW4/OfVGldanFYc12IVKN-Eu5GCx1obnA2HWACLcBGAs/s640/2018-09-10_18.00.09.jpg%22
