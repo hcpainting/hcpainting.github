@@ -3,6 +3,12 @@
     border-color: navy;
 }
 
+.btn-outline-warning:hover{
+    background-color: navy;
+    color: white;
+    border-color: white;
+}
+
 div.background-jumb {
     background-color: navy;
     width: 1440px;
