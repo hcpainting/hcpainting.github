@@ -1,0 +1,74 @@
+
+
+img.logo{
+    height: 30px;
+    width: 50px; 
+}
+
+
+
+img.top{
+    display: block;
+   
+    width: 100%;
+    height: 300px;
+
+    display: inline-block;
+}
+
+div.Title{
+    font-size: 5vw;
+    text-align: center;
+    margin: 0 auto;
+    color: navy;
+}
+
+div.Info{
+    width: 40%;
+    height: 50%;
+    border-style: double;
+    border-color: navy;
+    border-width: 7px;
+    font-size: 1.5vw;
+    text-align: center;
+    float: left;
+    margin-left: 7vw;
+    
+    
+    
+    
+}
+h2.Phone{
+    font-size:1.5vw;
+}
+
+h2.Hours{
+    font-size: 1.2vw;
+}
+
+h2.Email{
+    font-size: 1.5vw;
+}
+
+div.Form-Container{
+    width: 40%;
+    border-style: double;
+    border-color: navy;
+    border-width: 7px;
+    height: 50%;
+    float: right;
+    margin-right: 7vw;
+    
+    
+
+}
+
+div.Form{   
+    max-width: 90%;
+    margin: auto;
+    
+}
+
+
+
+

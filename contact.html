@@ -1,34 +1,87 @@
 <!DOCTYPE> 
-<html>
+<html> 
     <head> 
-        <link rel="stylesheet" type="text/css" href="css/gallery.css">
+        <title> HC Painting</title>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+        
+        <<link rel="stylesheet" type="text/css" href="css/ContactUs.css">
+        
+         <!-- JQuery 3.3.1 -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"> </script>
+
+         <!-- Latest compiled and minified JavaScript -->
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+        <!-- JQuery UI -->
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha254-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+
+        <!-- for dropdown (mobile) -->
+        <script src="js/bootstrap-dropdown.js"></script>
+
+
+
     </head>
+       
+    <body>
 
-    
-        <div class = "bottom-tile"> 
-            <div class= "left">
-                <h2 class="navbar-top"> Home Castle Painting Co. </h2>
+
+        <!-- navbar -->
+        <nav id="home-nav" class="navbar navbar-expand-sm navbar-dark fixed-top bg-dark">
+            <a class="navbar-brand" href="Home.html">
+                <img class="logo" src="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse flex-row-reerse" id="navbarCollapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="Assess.html">Services <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/markets"> Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/data">References</a>
+                    </li>
+                </ul>
+
+                <div class="ml-auto">
+                    <a role="button" href="/admin-login" class="btn btn-outline-warning">Contact Us</a>
+                </div>
             </div>
-
-            <div class="links">
-                <span> <a href="gallery.html"> Gallery </a> </span>
-                <span class="bar"> | </span> 
-                <span> <a href="contact.html">Contact </a></span>
-                <span class="bar"> | </span>
-                <span><a href="aboutus.html"> About Us </a></span>
-                <span class="bar"> | </span> 
-                <span><a href="estimate.html"> Free Estimate</a> </span>
-
-
-            </div>
-
-
-
-        </div> 
-        
-        <div class="container">
-        </div>
-
-        
+        </nav>
+            <img class="top" src= "images/contact.jpg" />
+            <div class= "Title" > Contact Us </div> 
+             
+                <div class= "Info" > <p> 
+                    <h2 class= "Phone">  <b> Phone: </b> </br> 626-394-1989 </br></h2>
+                    <h2 class = "Hours"> <i> 6 a.m. - 10 p.m. </br> Sun-Sat </i> </br>  </h2> 
+                    <h2 class = "Email"> </br> <b> Email: </b> </br> homecastlepainting@yahoo.com </h2> <p>
+                 </div>
+               
+                 <div class = "Form-Container">
+                    <div class= "Form"> 
+                    <form>
+                        <div class="form-group">
+                            <label for="inLineFormInput"></br>Name:</label>
+                            <input type="name" class="form-control" id="inputName" placeholder="Jane Doe">
+                        </div>
+                        <div class="form-group">
+                        <label for="exampleInputEmail1">Email address/Phone Number:</label>
+                        <input type="email" class="form-control" id="inputInformation" aria-describedby="emailHelp" placeholder="Enter Contact Information">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your information with anyone else.</small>
+  </div>
+                        
+                        <div class="form-group">
+                            <label for="inLineFormInput">Job Description:</label>
+                            <textarea type="description" class="form-control" id="inputDescription" rows= "4"></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                    </div>
+                   </div>
+      </body>
 </html>
-    
