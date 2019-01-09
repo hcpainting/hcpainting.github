@@ -1,12 +1,12 @@
-<!DOCTYPE> 
-<html> 
-    <head> 
+<!DOCTYPE>
+<html>
+    <head>
         <title> HC Painting</title>
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-        
+
         <<link rel="stylesheet" type="text/css" href="css/ContactUs.css">
-        
+
          <!-- JQuery 3.3.1 -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"> </script>
 
@@ -21,7 +21,7 @@
 
 
     </head>
-       
+
     <body>
 
 
@@ -54,37 +54,41 @@
         </nav>
             <div class="Title-Bar">
             <img class="top" src= "images/contact.jpg" />
-            <h2 class= "Title" > Contact Us </h2> 
+            <h2 class= "Title" > Contact Us </h2>
             </div>
              <div class= "Main-Content">
-                <div class= "Info" > <p> 
+                <div class= "Info" > <p>
                     <h2 class= "Phone">  <b> Phone: </b> </br> 626-394-1989 </br></h2>
-                    <h2 class = "Hours"> <i> 6 a.m. - 10 p.m. </br> Sun-Sat </i> </br>  </h2> 
+                    <h2 class = "Hours"> <i> 6 a.m. - 10 p.m. </br> Sun-Sat </i> </br>  </h2>
                     <h2 class = "Email"> </br> <b> Email: </b> </br> homecastlepainting@yahoo.com </h2> <p>
                  </div>
-               
+
                  <div class = "Form-Container">
-                    <div class= "Form"> 
-                    <form>
+                    <div class= "Form">
+                    <form id = "contactForm">
                         <div class="form-group">
-                            <label for="inLineFormInput"></br>Name:</label>
-                            <input type="name" class="form-control" id="inputName" placeholder="Jane Doe">
+                        <div class="alert"> You're message has been sent</div>
+                            <label for="inLineFormInput" class="required-input"></br>Name:</label>
+                            <input type="name" id="name" class="form-control"  placeholder="Jane Doe" required>
                         </div>
                         <div class="form-group">
-                        <label for="exampleInputEmail1">Email address/Phone Number:</label>
-                        <input type="email" class="form-control" id="inputInformation" aria-describedby="emailHelp" placeholder="Enter Contact Information">
+                        <label for="Contact Label">Email address/Phone Number:</label>
+                        <input type="text" class="form-control" id="info" aria-describedby="emailHelp" placeholder="Enter Contact Information" required>
                         <small id="emailHelp" class="form-text text-muted">We'll never share your information with anyone else.</small>
   </div>
-                        
+
                         <div class="form-group">
                             <label for="inLineFormInput">Job Description:</label>
-                            <textarea type="description" class="form-control" id="inputDescription" rows= "4"></textarea>
+                            <textarea type="description" class="form-control" id= "inputDes" rows= "4"></textarea>
                         </div>
-                        
-                        <button type="submit" class="btn btn-primary">Submit</button>
+
+                        <button type="submit" class="btn btn-primary" id="submit" value="Submit" >Submit</button>
                     </form>
                     </div>
                     </div>
                    </div>
+                   <script src="https://www.gstatic.com/firebasejs/5.7.2/firebase.js"></script>
+                  <script  src="js/contact-us.js"></script>
+
       </body>
 </html>
