@@ -41,7 +41,7 @@ div.Main-Content{
 }
 div.Info{
     width: 40%;
-    height: 60%;
+    height: 70%;
     border-style: ridge;
     border-color: navy;
     border-width: 7px;
@@ -75,7 +75,7 @@ div.Form-Container{
     border-style: ridge;
     border-color: navy;
     border-width: 7px;
-    height: 60%;
+    height: 70%;
     float: right;
     margin-right: 7vw;
     color:navy;
@@ -83,21 +83,34 @@ div.Form-Container{
 
 }
 
-.alert{
+.alert-success{
     margin: auto;
     text-align: center;
     padding:5px;
     background-color: green;
     color: white;
-    margin-top: 10px;
+    margin-top: 15px;
+    display: none;
+}
+.alert-fail{
+    margin: auto;
+    text-align: center;
+    padding:5px;
+    background-color: red;
+    color: white;
+    margin-top: 15px;
     display: none;
 }
 
 div.Form{
     max-width: 90%;
     margin: 0 auto;
+    margin-top: 60px;
 
 }
+
+
+
 
 
 
