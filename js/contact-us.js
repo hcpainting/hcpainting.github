@@ -2,7 +2,7 @@
 function submitToAPI(e) {
        e.preventDefault();
        const proxyurl = "https://cors-anywhere.herokuapp.com/";
-       var URL =  "https://krhbele4a7.execute-api.us-west-2.amazonaws.com/test";
+       var URL =  "test";
        fetch(proxyurl + URL)
             var Namere = /[A-Za-z]{1}[A-Za-z]/;
             if (!Namere.test($("#name-input").val())) {
@@ -38,7 +38,7 @@ function submitToAPI(e) {
 
        $.ajax({
          type: "POST",
-         url : "https://krhbele4a7.execute-api.us-west-2.amazonaws.com/test",
+         url : "test",
          dataType: "json",
          crossDomain: "true",
          contentType: "application/json; charset=utf-8",
