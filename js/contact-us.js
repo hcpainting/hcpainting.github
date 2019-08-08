@@ -1,9 +1,9 @@
 
 function submitToAPI(e) {
        e.preventDefault();
-       const proxyurl = "https://cors-anywhere.herokuapp.com/";
+       //const proxyurl = "https://cors-anywhere.herokuapp.com/";
        var URL =  "https://jo7bef0pt3.execute-api.us-west-2.amazonaws.com/contact-1";
-       fetch(proxyurl + URL)
+       fetch(URL)
             var Namere = /[A-Za-z]{1}[A-Za-z]/;
             if (!Namere.test($("#name-input").val())) {
                          alert ("Name can not less than 2 char");
