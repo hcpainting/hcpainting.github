@@ -2,7 +2,7 @@
 function submitToAPI(e) {
        e.preventDefault();
        const proxyurl = "https://cors-anywhere.herokuapp.com/";
-       var URL =  "test";
+       var URL =  " https://lsrh7lpuzc.execute-api.us-west-1.amazonaws.com/contact-1";
        fetch(proxyurl + URL)
             var Namere = /[A-Za-z]{1}[A-Za-z]/;
             if (!Namere.test($("#name-input").val())) {
